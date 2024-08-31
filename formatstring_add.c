@@ -5,7 +5,7 @@
 #define OVERWRITE_WITH_SPACES(n)  printf("\033[%dX", (n));
 
 
-void usage(char *path) {
+static void usage(const char *path) {
   fprintf(stderr, "%s: UINT UINT\n", path);
   exit(1);
 }
