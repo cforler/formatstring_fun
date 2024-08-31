@@ -29,4 +29,15 @@ The statement `printf("%*n%*x%n", a, 0, b, 0, &c);` writes `a + b` characters to
 This repository serves as a cautionary example to illustrate the
 pitfalls of format strings. Always prioritize secure coding practices
 and rely on standard arithmetic functions for calculations.
- 
+
+
+## Integer Assignment (Easy)
+Your task is to provide input to the program
+`formatstring_assign_puzzle.c` that assigns the value `42` to the
+variable `target`.
+
+*HINT:* GhlIGNvbnZlcnNpb24gc3BlY2lmaWVyICduJyBtaWdodCBoZWxwIHlvdSBzb2x2ZSB0aGlzIHRhc2suCg==
+*Note:* To decode this hint, you can use a Base64 decoder available
+online or a command-line tools such as `base64`.
+
+
