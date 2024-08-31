@@ -37,6 +37,7 @@ Your task is to provide input to the program
 variable `target`.
 
 *HINT:* GhlIGNvbnZlcnNpb24gc3BlY2lmaWVyICduJyBtaWdodCBoZWxwIHlvdSBzb2x2ZSB0aGlzIHRhc2suCg==
+
 *Note:* To decode this hint, you can use a Base64 decoder available
 online or a command-line tools such as `base64`.
 
