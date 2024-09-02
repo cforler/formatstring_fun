@@ -1,6 +1,8 @@
 CFLAGS += -W -Wall -Wextra -Werror
 
-all: formatstring_add formatstring_assign_puzzle
+bin = formatstring_add formatstring_assign_puzzle formatstring_parameter_pick
+
+all: $(bin)
 
 clean:
-	$(RM) formatstring_add formatstring_assign_puzzle *~
+	 $(RM) $(bin)  *~

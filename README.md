@@ -41,4 +41,10 @@ variable `target`.
 *Note:* To decode this hint, you can use a Base64 decoder available
 online or a command-line tools such as `base64`.
 
+## Parameter Pick
+Did you know that you can pick an arbitrary parameter using the index
+of the parameter followed by `$`? For example, 
+`printf("%3$d, %2$d, %1$d\n", 10, 20, 30);` prints the string "30, 20, 10\n" to
+stdout. Feel free to compile and run the program
+`formatstring_parameter_pick` to verify this.
 
