@@ -48,3 +48,12 @@ of the parameter followed by `$`? For example,
 stdout. Feel free to compile and run the program
 `formatstring_parameter_pick` to verify this.
 
+## Adding Numbers Revisited
+With our current knowledge, we can create a more advanced format string
+to add two positive integers 'a' and 'b'. Given the statement
+`printf(formatstring, &sum)`, we can compute the sum using the
+following format string where `A` denotes the value of `a` and `B` the
+value of `b`: `%Ac%Bc%1$n`. This format string prints A+B characters
+and then writes the sum of the written characters to the first
+argument of the format string. The program `formatstring_add2`
+demonstrates this approach.

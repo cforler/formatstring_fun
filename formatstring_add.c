@@ -4,7 +4,6 @@
 #define MOVE_CURSOR_LEFT(n)       printf("\033[%dD", (n))
 #define OVERWRITE_WITH_SPACES(n)  printf("\033[%dX", (n));
 
-
 static void usage(const char *path) {
   fprintf(stderr, "%s: UINT UINT\n", path);
   exit(1);
